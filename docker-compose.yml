@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  db:
+    image: postgres
+    build:
+      context: .
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+  sqlserver:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: "Your_password123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
