@@ -5,6 +5,7 @@ services:
     image: postgres
     build:
       context: .
+      dockerfile: postgresql/Dockerfile
     volumes:
       - ./data:/var/lib/postgresql/data
     restart: always
