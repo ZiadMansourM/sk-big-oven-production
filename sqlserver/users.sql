@@ -1,10 +1,10 @@
--- bassel - Bassel@sk22
--- baraa - Baraa@sk22
--- mohamed - Mohamed@sk22
--- salma - Salma@sk22
+-- bassel
+-- baraa
+-- mohamed
+-- salma
 
 
--- bassel - Bassel@sk22
+-- bassel
 -- [1]: create login
 use master
 GO
@@ -35,7 +35,7 @@ BEGIN;
 END;
 
 
--- baraa - Baraa@sk22
+-- baraa
 -- [1]: create login
 use master
 GO
@@ -67,7 +67,7 @@ END;
 
 
 
--- mohamed - Mohamed@sk22
+-- mohamed
 -- [1]: create login
 use master
 GO
@@ -98,7 +98,7 @@ BEGIN;
 END;
 
 
--- salma - Salma@sk22
+-- salma
 -- [1]: create login
 use master
 GO

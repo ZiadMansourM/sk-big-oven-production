@@ -1,30 +1,30 @@
--- mariam - mariam@sk
--- dina - dina@sk
--- mina - mina@sk
--- nada - nada@sk
--- younes - younes@sk
+-- mariam
+-- dina
+-- mina
+-- nada
+-- younes
 
--- mariam - mariam@sk
+-- mariam
 CREATE DATABASE mariam;
 CREATE USER mariam WITH ENCRYPTED PASSWORD 'nC5fRECu9hhGSIjDYTzZ22pcQo0He52ECn2N2cQnt016jb3UhTNQEozlUdCe@sk22';
 GRANT ALL PRIVILEGES ON DATABASE mariam TO mariam;
 
--- dina - dina@sk
+-- dina
 CREATE DATABASE dina;
 CREATE USER dina WITH ENCRYPTED PASSWORD 'BweDTx92nBOaHhyvYXDBsM4tosbS9mYqBMPv2kLBGwptprPoxUhCYvNIQlbw@sk22';
 GRANT ALL PRIVILEGES ON DATABASE dina TO dina;
 
--- mina - mina@sk
+-- mina
 CREATE DATABASE mina;
 CREATE USER mina WITH ENCRYPTED PASSWORD 'sk2RiGTuRKvqzx8ZYOu613z7FWUAKQI7F2GoRDl7DWTtMBNgWlDKBbGnjnM1@sk22';
 GRANT ALL PRIVILEGES ON DATABASE mina TO mina;
 
--- nada - nada@sk
+-- nada
 CREATE DATABASE nada;
 CREATE USER nada WITH ENCRYPTED PASSWORD 'RrkDUk29m4kyi5SKuDB903BksB8p3GnnTim3RWPWoR8ZkTUTf3eXdBOigoVX@sk22';
 GRANT ALL PRIVILEGES ON DATABASE nada TO nada;
 
--- younes - younes@sk
+-- younes
 CREATE DATABASE younes;
 CREATE USER younes WITH ENCRYPTED PASSWORD '5XP1CUBsUzbXpC1KX6jyH0pvXP7pVqEXf0sQ7W7beP2rHC8OmmZUlUbBKTmU@sk22';
 GRANT ALL PRIVILEGES ON DATABASE younes TO younes;
