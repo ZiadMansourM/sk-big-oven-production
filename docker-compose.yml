@@ -6,9 +6,9 @@ services:
     build:
       context: .
       dockerfile: postgresql/Dockerfile
+    restart: always
     volumes:
       - ./data:/var/lib/postgresql/data
-    restart: always
     environment:
       - POSTGRES_PASSWORD=postgres
     ports:
@@ -18,12 +18,13 @@ services:
     build:
       context: .
       dockerfile: sqlserver/Dockerfile
-    environment:
-      MSSQL_SA_PASSWORD: "Your_password123"
-      ACCEPT_EULA: "Y"
+    restart: always
     volumes:
       - ./volumes/data:/var/opt/mssql/data 
       - ./volumes/log:/var/opt/mssql/log 
       - ./volumes/secrets:/var/opt/mssql/secrets 
+    environment:
+      MSSQL_SA_PASSWORD: "Your_password123"
+      ACCEPT_EULA: "Y"
     ports:
       - "1433:1433"
